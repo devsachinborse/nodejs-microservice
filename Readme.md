@@ -48,10 +48,10 @@ npm run dev
 This will start both the Auth and Post services in development mode.
 
 ## Important Notes
-    1. Make sure both MongoDB and PostgreSQL databases are up and running.
-    2. The Auth Service runs on port 7878, and the Post Service runs on port 7879.
-    3. Update the DATABASE_URL in the .env files with your actual MongoDB and PostgreSQL connection URLs.
+1. Make sure both MongoDB and PostgreSQL databases are up and running.
+2. The Auth Service runs on port 7878, and the Post Service runs on port 7879.
+3. Update the DATABASE_URL in the .env files with your actual MongoDB and PostgreSQL connection URLs.
 
 ## Dependencies
-    1. Auth Service: Uses MongoDB, Prisma, and JWT for authentication.
-    2.Post Service: Uses PostgreSQL, Prisma, and communicates with the Auth Service for authentication.
+1. Auth Service: Uses MongoDB, Prisma, and JWT for authentication.
+2.Post Service: Uses PostgreSQL, Prisma, and communicates with the Auth Service for authentication.
