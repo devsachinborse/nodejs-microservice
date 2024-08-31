@@ -54,4 +54,4 @@ This will start both the Auth and Post services in development mode.
 
 ## Dependencies
 1. Auth Service: Uses MongoDB, Prisma, and JWT for authentication.
-2.Post Service: Uses PostgreSQL, Prisma, and communicates with the Auth Service for authentication.
+2. Post Service: Uses PostgreSQL, Prisma, and communicates with the Auth Service for authentication.
